@@ -3,6 +3,10 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import { Head } from 'next/document'
 import Navigation from './pages/page'
+import Checkout from './checkout/page'
+import Offers from './educationaloffers/page'
+import Footer from './footer/page'
+
 
 
 
@@ -22,6 +26,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Navigation />
+        <Checkout />
+        <Offers />
+        <Footer />
         {children}
       
       </body>
