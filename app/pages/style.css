@@ -1,0 +1,93 @@
+:root {
+    --background-color: hsla(0, 0%, 100%, 1);
+    --tertiary-color: hsla(0, 0%, 0%, 1);
+    --other-color: hsla(0, 0%, 0%, 0.3);
+    --neutral-color: hsla(0, 0%, 36%, 1);
+    --primary-color: hsla(0, 0%, 0%, 1);
+    --subtle-color:hsla(194, 86%, 54%, 1);
+    --beautiful-color: hsla(238, 27%, 20%, 1);
+    --gradient-color: hsla(217, 89%, 64%, 0.2);
+    --main-gradient-style: hsla(217, 89%, 64%, 1);
+    --button-color: hsla(217, 89%, 64%, 1);
+
+}
+
+.nav_background {
+    background-color: var(--background-color);
+    height: 100px;
+}
+
+.img_logo {
+    width: 166px;
+    height: 45px;
+    top: 30px;
+    left: 100px;
+    position: relative;
+}
+
+/* navigation-list- styling */
+.listed_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.listed_item li {
+    list-style-type: none;
+}
+
+.second_navlist {
+    display: flex;
+    margin-left: 67px;    
+}
+
+.navlist_fontawesome_style {
+    height: 10px;
+    margin-top: 8px;
+    margin-left: 3px;
+}
+
+/* navigation right side styling */
+
+.nav_bell_bg {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    right: 352px;
+    top: 12px;
+    border: 2px solid var(--gradient-color);
+}
+
+.nav_bell {
+    width: 32px;
+    height: 32px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+}
+
+.profile_bg {
+    width: 233px;
+    height: 80px;
+    border: 2px solid var(--gradient-color);
+    position: absolute;
+    right: 95px;
+    top: 12px;
+}
+
+.profile_img {
+    width: 32px;
+    height: 32px;
+    left: 24px;
+    top: 24px;
+    position: absolute;
+}
+
+.profilename {
+    font-size: 19.2px;
+    right: 24px;
+    position: absolute;
+    top: 24px;
+}
+
